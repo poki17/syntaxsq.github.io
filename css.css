@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    background: url('img/c20acb227f5c45ecc5185731b5ef4b51.gif');
+    color: white;
+    text-align: center;
+}
+
+
+header {
+    background-color: #000;
+}
+
+header h1 {
+    font-size: 100px;
+    margin: 0;
+    color: #fff;
+}
+
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 50px;
+}
+
+main p {
+    font-size: 30px;
+}
+
+.logo {
+    margin-top: -150px;
+    margin-left: 1700px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+
+
+
+footer {
+    background-color: #000;
+    margin-top: 509px;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #fff;
+} 
+
+button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #6c24d2;
+    color: white;
+}
+
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+.p1{
+    font-size: 25px;
+}
+
+.p2 {
+    font-size: bolder;
+}
